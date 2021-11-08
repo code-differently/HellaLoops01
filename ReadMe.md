@@ -1,5 +1,5 @@
 # Hella Loops 01
-* Ensure each of the test cases in the class ***NumberUtilitiesTest*** successfully passes upon completion of each of the method stubs in the class ***NumberUtilities***.
+* Ensure each of the test cases in the class ***HellaLoopsTest*** successfully passes upon completion of each of the method stubs in the class ***NumberUtilities***.
     * `String getEvenNumbers(int start, int stop)`
     * `String getOddNumbers(int start, int stop)`
     * `String getSquareNumbers(int start, int stop, int step)`
@@ -17,7 +17,7 @@
     int stop = 11;
     
     // : When
-    String outcome = NumberUtilities.getRange(stop);
+    String outcome = loops.getRange(stop);
     
     // : Then
     System.out.println(outcome);
@@ -52,7 +52,7 @@
     int stop = 11;
     
     // : When
-    String outcome = NumberUtilities.getRange(start, stop);
+    String outcome = loops.getRange(start, stop);
     
     // : Then
     System.out.println(outcome);
@@ -84,7 +84,7 @@
     int step = 5;
     
     // : When
-    String outcome = NumberUtilities.getRange(min, max, step);
+    String outcome = loops.getRange(min, max, step);
     
     // : Then
     System.out.println(outcome);
@@ -123,7 +123,7 @@
     int stop = 20;
     
     // : When
-    String outcome = NumberUtilities.getOddNumbers(min, max);
+    String outcome = loops.getOddNumbers(min, max);
     
     // : Then
     System.out.println(outcome);
@@ -151,7 +151,7 @@
     int stop = 20;
     
     // : When
-    String outcome = NumberUtilities.getOddNumbers(min, max);
+    String outcome = loops.getOddNumbers(min, max);
     
     // : Then
     System.out.println(outcome);
@@ -192,7 +192,7 @@
     int stop = 20;
     
     // : When
-    String outcome = NumberUtilities.getOddNumbers(min, max);
+    String outcome = loops.getOddNumbers(min, max);
     
     // : Then
     System.out.println(outcome);
@@ -231,7 +231,7 @@
     int exponent = 2;
     
     // : When
-    String outcome = NumberUtilities.getOddNumbers(min, max);
+    String outcome = loops.getOddNumbers(min, max);
     
     // : Then
     System.out.println(outcome);
