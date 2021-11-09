@@ -15,7 +15,7 @@ public class HellaLoops01Test {
     public void testGetRange1A() {
         // : Given
         String expected = "0123456789";
-        int stop = 11;
+        int stop = 10;
 
         // : When
         String actual = loops.getRange(stop);
@@ -131,7 +131,7 @@ public class HellaLoops01Test {
         // : Given
         String expected = "0246810";
         int start = 0;
-        int stop = 11;
+        int stop = 10;
         int step = 2;
 
         // : When
@@ -161,7 +161,7 @@ public class HellaLoops01Test {
         String expected = "681012141618";
         int start = 5;
         int stop = 20;
-        int step = 5;
+
 
         // : When
         String actual = loops.getOddNumbers(start, stop);

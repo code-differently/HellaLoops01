@@ -1,13 +1,18 @@
 public class HellaLoops01 {
     public static String getEvenNumbers(int start, int stop) {
+        String answer = "";
+        return answer;
 
-
-        return null;
     }
 
 
     public static String getOddNumbers(int start, int stop) {
-        return null;
+        String answer =null;
+
+
+return null;
+
+
     }
 
 
@@ -21,25 +26,36 @@ public class HellaLoops01 {
         }
 
 
-        public static String getRange ( int start){
+        public static String getRange ( int stop){
+        String answer = "";
+        for( int i= 0 ; i < stop; i++){
+          answer+=i;
 
+        }
+        return answer;
 
-            return null;
         }
 
         public static String getRange ( int start, int stop){
 
+            String answer = "";
+            for( int i= start ; i < stop; i++){
+                answer+=i;
 
-            return null;
+            }
+            return answer;
         }
 
 
         public static String getRange ( int start, int stop, int step){
 
+            String answer = "";
+            for( int i= start ; i < stop; i+= step){
+                answer+=i;
 
-            return null;
+            }
+            return answer;
         }
-
 
         public static String getExponentiations ( int start, int stop, int step, int exponent){
 
