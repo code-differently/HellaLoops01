@@ -11,7 +11,7 @@ public class HellaLoops01 {
     }
 
 
-    public static String getOddNumbers(int start, int stop) {
+    public static String getOddNumbers(int start,  int stop) {
         String answer = "";
         for(int i = start; i<stop; i++){
             if(i%2 ==0){
@@ -55,7 +55,6 @@ public class HellaLoops01 {
         }
         return answer;
     }
-
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
         String answer = "";
