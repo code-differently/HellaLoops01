@@ -1,4 +1,4 @@
-public class HellaLoops01 {
+public class HellaLoops01<response5> {
     public static String getEvenNumbers(int start, int stop) {
         String response3= "";
         for(int i=start; i<stop; i+=2)
@@ -20,10 +20,9 @@ public class HellaLoops01 {
 
     public static String getSquareNumbers(int start, int stop, int step) {
         String response5= "";
-        for(int i=start; i<stop; i++){
-            if (i < 5){
-                return response5;
-            }
+        for(int i=start; i<stop; i+= step){
+            int square = i*i;
+            response5 += square;
         }
         return response5;
     }
@@ -56,6 +55,12 @@ public class HellaLoops01 {
 
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
-        return null;
+        String response6 = "";
+        for(int i =start; i < stop; i += step){
+            int exponentAmount = (int) Math.pow(i, exponent);
+
+            response6 += exponentAmount;
+        }
+        return response6;
     }
 }
