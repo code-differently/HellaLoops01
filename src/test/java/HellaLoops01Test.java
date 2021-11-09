@@ -131,7 +131,7 @@ public class HellaLoops01Test {
         // : Given
         String expected = "0246810";
         int start = 0;
-        int stop = 11;
+        int stop = 10;
         int step = 2;
 
         // : When
