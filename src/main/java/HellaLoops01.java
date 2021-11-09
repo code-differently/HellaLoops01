@@ -32,10 +32,10 @@ public class HellaLoops01 {
 
     public static String getRange(int start) {
         String range = "";
-        for(int i = start; i< 10; i++){
+
+        for(int i = start; i<10; i++){
             range += i;
         }
-
         return range;
     }
 
@@ -50,7 +50,7 @@ public class HellaLoops01 {
 
     public static String getRange(int start, int stop, int step) {
         String range ="";
-        for (int i = start; i < stop; i += step) {
+        for (int i = start; i < stop; i+=step) {
             range += i;
 
         }
@@ -61,9 +61,8 @@ public class HellaLoops01 {
         public static String getExponentiations ( int start, int stop, int step, int exponent){
             String exp = "";
             for(int i = start; i < stop; i+=step){
-                exp += i;
+                exp += (int) Math.pow(i,2);
             }
-
             return exp;
         }
     }
