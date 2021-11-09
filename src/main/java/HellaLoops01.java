@@ -1,5 +1,7 @@
 public class HellaLoops01 {
     public static String getEvenNumbers(int start, int stop) {
+
+
         return null;
     }
 
@@ -10,24 +12,41 @@ public class HellaLoops01 {
 
 
     public static String getSquareNumbers(int start, int stop, int step) {
-        return null;
-    }
 
-    public static String getRange(int start) {
-        return null;
-    }
-
-    public static String getRange(int start, int stop) {
-        return null;
-    }
+            String answer = "";
+            for (int i = start; i < stop; i += start) {
+                answer += (i * i);
+            }
+            return answer;
+        }
 
 
-    public static String getRange(int start, int stop, int step) {
-        return null;
-    }
+        public static String getRange ( int start){
 
 
-    public static String getExponentiations(int start, int stop, int step, int exponent) {
-        return null;
-    }
-}
+            return null;
+        }
+
+        public static String getRange ( int start, int stop){
+
+
+            return null;
+        }
+
+
+        public static String getRange ( int start, int stop, int step){
+
+
+            return null;
+        }
+
+
+        public static String getExponentiations ( int start, int stop, int step, int exponent){
+
+                String answer = "";
+                for (int i = start; i < stop; i += step) {
+                    answer += (int) Math.pow(i, exponent);
+                }
+                return answer;
+            }
+        }
