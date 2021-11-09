@@ -60,7 +60,7 @@ public class HellaLoops01 {
     public static String getExponentiations(int start, int stop, int step, int exponent) {
         String expNums = "";
         for (int i = start; i < stop; i+= step) {
-            expNums = expNums.concat(String.valueOf((int)Math.pow(i, 2)));
+            expNums = expNums.concat(String.valueOf((int)Math.pow(i, exponent)));
         }
         return expNums;
     }
