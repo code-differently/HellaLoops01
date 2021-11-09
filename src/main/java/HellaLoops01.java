@@ -48,9 +48,9 @@ public class HellaLoops01 {
 
 
     public static String getRange(int start, int stop, int step) {
-        StringBuilder countRange = new StringBuilder();
+        String countRange = "";
         for(int i = start; i< stop; i+=step) {
-            countRange.append(i);
+            countRange +=i;
         }
         return "" + countRange;
     }
