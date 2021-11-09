@@ -49,24 +49,20 @@ public class HellaLoops01 {
 
     public static String getSquareNumbers(int start, int stop, int step) {
         String response="";
-        for (int i = start; i<stop;i+=step){
-            Math.pow(i,i)
+        for (int i = start; i<stop;i=step){
+           response+= Math.pow(i,2);
         }
-
-        }
-
-
             return response;
     }
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
         String response = "";
 
-        for (int i = start; i<stop;i+=step){
-            Math.pow(i,exponent);
-
-
-        return response;
+        for (int i = start; i<stop;i=step){
+           response += Math.pow(i,exponent);
 
     }
+        return response;
 }
+}
+
