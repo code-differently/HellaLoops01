@@ -23,10 +23,15 @@ public class HellaLoops01 {
 
 
     public static String getSquareNumbers(int start, int stop, int step) {
-        return null;
+        String squareNums = "";
+        for(int i = start; i<stop; i+=step){
+            squareNums += (int) Math.pow(i,2);
+        }
+        return squareNums;
     }
 
     public static String getRange(int start) {
+
         return null;
     }
 
