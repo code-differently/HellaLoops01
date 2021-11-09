@@ -1,33 +1,66 @@
 public class HellaLoops01 {
     public static String getEvenNumbers(int start, int stop) {
-        return null;
+        StringBuilder countEven = new StringBuilder();
+        for (int i = start; i < stop; i++) {
+            if (i % 2 != 0) {
+              countEven.append(i);
+            }
+        }
+            return "" + countEven;
+
     }
 
-
     public static String getOddNumbers(int start, int stop) {
-        return null;
+        StringBuilder countOdd = new StringBuilder();
+        for (int i = start; i < stop; i++){
+            if (i % 2 ==0) {
+                countOdd.append(i);
+            }
+        }
+        return "" + countOdd;
     }
 
 
     public static String getSquareNumbers(int start, int stop, int step) {
-        return null;
+        StringBuilder countSquares = new StringBuilder();
+        for (int i = start; i < stop; i+=step){
+            countSquares.append(i*i);
+
+        }
+        return "" + countSquares;
     }
 
-    public static String getRange(int start) {
-        return null;
+    public static String getRange(int stop) {
+        StringBuilder countRange = new StringBuilder();
+        for (int i =0; i < stop; i++) {
+            countRange.append(i);
+        }
+        return "" + countRange;
     }
 
     public static String getRange(int start, int stop) {
-        return null;
+        StringBuilder countRange = new StringBuilder();
+        for (int i = start; i < stop; i++) {
+            countRange.append(i);
+        }
+        return "" + countRange;
     }
 
 
     public static String getRange(int start, int stop, int step) {
-        return null;
+        String countRange = "";
+        for(int i = start; i< stop; i+=step) {
+            countRange +=i;
+        }
+        return "" + countRange;
     }
 
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
-        return null;
+        StringBuilder countEx = new StringBuilder();
+        for(int i = start; i< stop; i+= step) {
+            countEx.append((int)Math.pow(i,exponent));
+        }
+        return "" + countEx;
     }
 }
