@@ -31,26 +31,40 @@ public class HellaLoops01 {
     }
 
     public static String getRange(int start) {
+        String range = "";
+        for(int i = start; i< 10; i++){
+            range += i;
+        }
 
-        return null;
+        return range;
     }
 
     public static String getRange(int start, int stop) {
-        return null;
+        String range = "";
+        for (int i = start; i<stop; i++){
+            range += i;
+        }
+        return range;
     }
 
 
     public static String getRange(int start, int stop, int step) {
-        String range;
+        String range ="";
         for (int i = start; i < stop; i += step) {
+            range += i;
 
         }
-        return null;
+        return range;
     }
 
 
         public static String getExponentiations ( int start, int stop, int step, int exponent){
-            return null;
+            String exp = "";
+            for(int i = start; i < stop; i+=step){
+                exp += i;
+            }
+
+            return exp;
         }
     }
 
