@@ -1,23 +1,24 @@
 public class HellaLoops01 {
     public static String getEvenNumbers(int start, int stop) {
-        String[] evenNums;
-        for (int i = start;i< stop; i++){
-            if(i%2==0){
+        String evenNums = "";
+        for (int i = start + 1; i < stop; i += 2) {
+            if (i % 2 == 0) {
+                evenNums += i;
 
             }
         }
-        return
+        return evenNums;
     }
 
 
     public static String getOddNumbers(int start, int stop) {
-        int oddNums = 0;
-        for (int i = start;i< stop; i++){
-            if(i%2 !=0){
-                oddNums = i;
+        String oddNums = "";
+        for (int i = start; i < stop; i++) {
+            if (i % 2 != 0) {
+                oddNums += i;
             }
         }
-        return
+        return oddNums;
     }
 
 
@@ -36,13 +37,15 @@ public class HellaLoops01 {
 
     public static String getRange(int start, int stop, int step) {
         String range;
-        for (int i = start; i < stop; i+=step)
+        for (int i = start; i < stop; i += step) {
 
-        return
-    }
-
-
-    public static String getExponentiations(int start, int stop, int step, int exponent) {
+        }
         return null;
     }
-}
+
+
+        public static String getExponentiations ( int start, int stop, int step, int exponent){
+            return null;
+        }
+    }
+
